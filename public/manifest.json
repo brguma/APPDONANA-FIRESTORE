@@ -1,0 +1,98 @@
+{
+  "short_name": "Donana",
+  "name": "APP DONANA - Sistema de Orçamentos",
+  "description": "Sistema completo para gestão de orçamentos e pedidos de doces com Firebase",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#ec4899",
+  "background_color": "#fdf2f8",
+  "categories": ["business", "productivity", "food"],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide"
+    },
+    {
+      "src": "screenshot2.png", 
+      "type": "image/png",
+      "sizes": "540x720",
+      "platform": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Novo Orçamento",
+      "short_name": "Orçamento",
+      "description": "Criar um novo orçamento rapidamente",
+      "url": "/?action=new-budget",
+      "icons": [
+        {
+          "src": "icon-budget.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Ver Pedidos",
+      "short_name": "Pedidos",
+      "description": "Visualizar pedidos confirmados",
+      "url": "/?action=orders",
+      "icons": [
+        {
+          "src": "icon-orders.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Ver relatórios e estatísticas",
+      "url": "/?action=dashboard",
+      "icons": [
+        {
+          "src": "icon-dashboard.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+donana",
+      "url": "/?action=%s"
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}

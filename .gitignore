@@ -1,293 +1,34 @@
-# 🔥 APP DONANA - .gitignore
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# ⚠️ IMPORTANTE: Nunca commite credenciais!
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# 📦 Dependencies
-node_modules/
-/.pnp
-.pnp.js
-
-# 🔨 Production build
-/build
-/dist
-
-# 🧪 Testing
-/coverage
-*.lcov
-
-# 🎯 IDEs and editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# 📱 OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# 🔄 Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# 📊 Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# 🔧 Dependency directories
-node_modules/
-jspm_packages/
-
-# 📋 TypeScript cache
-*.tsbuildinfo
-
-# 🎯 Optional npm cache directory
-.npm
-
-# 🔒 Optional eslint cache
-.eslintcache
-
-# 🎨 Stylelint cache
-.stylelintcache
-
-# 🔄 Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
-
-# 📱 Optional REPL history
-.node_repl_history
-
-# 📦 Output of 'npm pack'
-*.tgz
-
-# 🔄 Yarn Integrity file
-.yarn-integrity
-
-# 🎯 parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
-
-# 🔒 Next.js build output
-.next
-
-# 🎨 Nuxt.js build / generate output
-.nuxt
-dist
-
-# 🚀 Gatsby files
-.cache/
-public
-
-# 🔧 Storybook build outputs
-.out
-.storybook-out
-
-# 🎯 Temporary folders
-tmp/
-temp/
-
-# 🔒 Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# 📊 Coverage directory used by tools like istanbul
-coverage/
-*.lcov
-
-# 🔧 nyc test coverage
-.nyc_output
-
-# 📱 Grunt intermediate storage
-.grunt
-
-# 🎯 Bower dependency directory
-bower_components
-
-# 🔒 node-waf configuration
-.lock-wscript
-
-# 🎨 Compiled binary addons
-build/Release
-
-# 📦 Dependency directories
-node_modules/
-jspm_packages/
-
-# 🔄 TypeScript v1 declaration files
-typings/
-
-# 🎯 Optional npm cache directory
-.npm
-
-# 🔒 Optional eslint cache
-.eslintcache
-
-# 🎨 Optional REPL history
-.node_repl_history
-
-# 📦 Output of 'npm pack'
-*.tgz
-
-# 🔄 Yarn Integrity file
-.yarn-integrity
-
-# 🎯 dotenv environment variables file
-.env
-
-# 🔒 parcel-bundler cache
-.cache
-.parcel-cache
-
-# 📱 next.js build output
-.next
-
-# 🎨 nuxt.js build output
-.nuxt
-
-# 🚀 vuepress build output
-.vuepress/dist
-
-# 🔧 Serverless directories
-.serverless
-
-# 🎯 FuseBox cache
-.fusebox/
-
-# 📊 DynamoDB Local files
-.dynamodb/
-
-# 🔒 TernJS port file
-.tern-port
-
-# 🎨 Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
-# 📱 Firebase
-.firebase/
-firebase-debug.log
-firestore-debug.log
-ui-debug.log
-
-# 🎯 Firebase Functions
-functions/node_modules/
-functions/lib/
-
-# 🔧 Firebase Emulators
-firebase-debug.log
-firestore-debug.log
-database-debug.log
-pubsub-debug.log
-ui-debug.log
-
-# 📊 Webpack Bundle Analyzer
-webpack-bundle-analyzer-report.html
-
-# 🔒 HTTPS certificates
-*.pem
-*.key
-*.crt
-
-# 🎨 Misc
-.sass-cache/
-.connect.lock
-.coverage
-.nyc_output
-.cache
-
-# 📱 Mobile
-*.apk
-*.ipa
-
-# 🎯 Backup files
-*.bak
-*.backup
-*.old
-
-# 🔧 Local configuration
-config.local.js
-config.local.json
-
-# 📊 Analytics and tracking
-.analytics/
-
-# 🚀 Deployment
-.deploy/
+# Vercel
 .vercel
-.netlify
-
-# 🔒 Security
-*.key
-*.pem
-*.p12
-*.pfx
-
-# 🎨 Design assets working files
-*.sketch
-*.fig
-*.xd
-*.psd
-
-# 📱 Mobile development
-android/
-ios/
-*.mobileprovision
-
-# 🎯 Game development (if applicable)
-*.unity
-*.unitypackage
-
-# 🔧 Database
-*.db
-*.sqlite
-*.sqlite3
-
-# 📊 Documentation builds
-docs/_build/
-site/
-
-# 🔒 Secrets and credentials
-secrets/
-credentials/
-*.secret
-*.credential
-
-# 🎨 Generated files
-generated/
-auto-generated/
-
-# 📱 Platform specific
-.expo/
-.expo-shared/
-
-# 🚀 Build artifacts
-artifacts/
-*.tar.gz
-*.zip
-
-# 🔧 Tool specific
-.tool-versions
-.nvmrc.local
-
-# Performance monitoring
-.clinic/
-0x/
